@@ -8,7 +8,7 @@ body {
   height: 70vh;
   width: 70vh;
   border-radius: 8px;
-  background-image: linear-gradient(to bottom right, #4e45a5, #58c8cc);
+  background-image: linear-gradient(to top right, #4e45a5, #58c8cc);
   display: grid;
   justify-content: center;
   align-content: center;
