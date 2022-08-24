@@ -4,18 +4,12 @@ body {
   place-items: center;
 }
 
-#green {
-  border: 3px solid green;
-}
-
 .gradient-container {
   height: 70vh;
   width: 70vh;
-  margin: 1px;
   border-radius: 8px;
   background-image: linear-gradient(to bottom right, #4e45a5, #58c8cc);
   display: grid;
-
   justify-content: center;
   align-content: center;
   text-align: center;
@@ -24,14 +18,11 @@ body {
 }
 
 .container {
-  border: 3px solid red;
   height: 100%;
   width: 100%;
-  border-style: dotted;
 }
 
 #hundred {
-  border: solid;
   height: 15vh;
   display: flex;
   font-size: 20vh;
@@ -39,19 +30,75 @@ body {
   flex-direction: row;
   justify-content: center;
   align-content: center;
-  text-transform: uppercase;
+}
+
+.one-one {
+  display: flex;
+  height: 40px;
+  width: 20px;
+  transform: rotate(50deg);
+  position: relative;
+  border-radius: 2px;
+  right: -12px;
+  box-sizing: border-box;
+  background: #fff;
+  z-index: 1;
+  box-shadow: inset 19px -20px 13px 0 rgb(0 0 0 / 9%);
+}
+
+.one-two {
+  display: flex;
+  height: 100px;
+  width: 24px;
+  position: relative;
+  right: -9px;
+  border-radius: 2px;
+  box-sizing: border-box;
+  background: #fff;
+  z-index: 5;
+  -webkit-box-shadow: 9px 0px 13px -3px rgba(0, 0, 0, 0.2);
+  box-shadow: 9px 0px 13px -3px rgba(0, 0, 0, 0.2);
+}
+
+.zero-two {
+  height: 45px;
+  width: 45px;
+  border-radius: 50%;
+  border: solid 30px;
+  position: relative;
+  right: 22px;
+  -webkit-box-shadow: 9px 0px 13px -3px rgba(0, 0, 0, 0.2);
+  box-shadow: 9px 0px 13px -3px rgba(0, 0, 0, 0.2);
+  z-index: 3;
+}
+
+.zero-one {
+  height: 45px;
+  width: 45px;
+  border-radius: 50%;
+  border: solid 30px;
+  position: relative;
+  right: 3px;
+  -webkit-box-shadow: 9px 0px 13px -3px rgba(0, 0, 0, 0.2);
+  box-shadow: 9px 0px 13px -3px rgba(0, 0, 0, 0.2);
+  z-index: 4;
 }
 
 #days {
-  border: solid;
   padding: 0px;
-  font-size: 10vh;
+  font-size: 14vh;
+  font-weight: bold;
+  line-height: 100%;
+  text-shadow: 6px 0px 12px rgba(0, 0, 0, 0.2);
 }
 
 #challenge {
   text-align: unset;
-  border: solid;
-  padding: 1px;
+  padding: 0px;
   font-size: 5vh;
-  text-transform: uppercase;
+  font-weight: bold;
+  position: relative;
+  top: -13px;
+  letter-spacing: -2px;
+  text-shadow: 6px 0px 12px rgba(0, 0, 0, 0.2);
 }
