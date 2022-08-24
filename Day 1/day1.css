@@ -1,28 +1,57 @@
-
-
-
-#gradient-container{
-    height: 100vh;
-    width: 205vh;
-    margin:1px;
-    background-image: linear-gradient(to bottom right, red, yellow);
-    display:grid;
-    justify-content: center;
-    align-content: center;
-    text-align:center;
-    text-justify:inter-word;
+body {
+  background-color: lightblue;
+  display: grid;
+  place-items: center;
 }
 
-#container{
-    border: 3px solid red;
-    height: 200px;
-    width: 200px;
-    overflow-wrap: break-word;
-    border-style: dotted;
+#green {
+  border: 3px solid green;
 }
 
-#hundred{
-    
-    display:flex;
-    
+.gradient-container {
+  height: 70vh;
+  width: 70vh;
+  margin: 1px;
+  border-radius: 8px;
+  background-image: linear-gradient(to bottom right, #4e45a5, #58c8cc);
+  display: grid;
+
+  justify-content: center;
+  align-content: center;
+  text-align: center;
+  font-family: "Courier New", "Courier", sans-serif;
+  color: #fff;
+}
+
+.container {
+  border: 3px solid red;
+  height: 100%;
+  width: 100%;
+  border-style: dotted;
+}
+
+#hundred {
+  border: solid;
+  height: 15vh;
+  display: flex;
+  font-size: 20vh;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+  align-content: center;
+  text-transform: uppercase;
+}
+
+#days {
+  border: solid;
+  padding: 0px;
+  font-size: 10vh;
+}
+
+#challenge {
+  text-align: unset;
+  border: solid;
+  padding: 1px;
+  font-size: 5vh;
+  text-transform: uppercase;
 }
