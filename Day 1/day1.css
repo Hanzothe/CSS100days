@@ -1,26 +1,28 @@
 
-#container{
-    width: 100vh;
-    height: 100vh;
-    display:grid;
-    justify-content: center;
-    align-content: center;
 
-
-}
 
 #gradient-container{
-    height: 80vh;
-    width: 100vh;
+    height: 100vh;
+    width: 205vh;
+    margin:1px;
     background-image: linear-gradient(to bottom right, red, yellow);
     display:grid;
     justify-content: center;
     align-content: center;
+    text-align:center;
+    text-justify:inter-word;
+}
+
+#container{
+    border: 3px solid red;
+    height: 200px;
+    width: 200px;
+    overflow-wrap: break-word;
+    border-style: dotted;
 }
 
 #hundred{
-    display:grid;
-    justify-content: center;
-    grid-auto-rows: auto;
-
+    
+    display:flex;
+    
 }
