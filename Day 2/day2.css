@@ -25,6 +25,24 @@ body {
   justify-items: center;
 }
 
+.upcross {
+  transform: rotate(45deg);
+  position: absolute;
+  top: 50%;
+  left: 40%;
+}
+
+.middlecross {
+  opacity: 0;
+}
+
+.downcross {
+  transform: rotate(135deg);
+  position: absolute;
+  top: 50%;
+  left: 40%;
+}
+
 .bar1 {
   color: white;
   height: 6px;
@@ -33,6 +51,7 @@ body {
   background-color: #fff;
   border-radius: 3px;
   box-shadow: 1px 4px 3px 2px rgb(0 0 0 / 13%);
+  transition: all 1s;
 }
 .bar2 {
   color: white;
@@ -51,4 +70,5 @@ body {
   background-color: #fff;
   border-radius: 3px;
   box-shadow: 1px 4px 3px 2px rgb(0 0 0 / 13%);
+  transition: all 1s;
 }

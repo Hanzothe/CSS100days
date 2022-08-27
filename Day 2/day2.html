@@ -10,11 +10,30 @@
 <body>
     
     <div id="frame">
-        <div class='bars'>
-            <div class='bar1'></div>
+        <a  href="#" class='bars'>
+            <div class='bar1 '></div>
             <div class='bar2'></div>
             <div class='bar3'></div>
-        </div>
+        </a>
     </div>
+
+
+
+    <script>
+        const upbar = document.querySelector('.bar1')
+        const middlebar = document.querySelector('.bar2')
+        const downbar = document.querySelector('.bar3')
+        const burguer = document.querySelector('.bars')
+
+
+        
+
+        burguer.addEventListener('click',( )=>{
+            upbar.classList.toggle('upcross');
+            middlebar.classList.toggle('middlecross');
+            downbar.classList.toggle('downcross');
+        });
+       
+    </script>
 </body>
 </html>
