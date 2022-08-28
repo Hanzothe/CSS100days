@@ -1,0 +1,47 @@
+body {
+  background-color: #000;
+  display: grid;
+  place-items: center;
+}
+
+.mainframe {
+  display: grid;
+  place-items: center;
+  position: relative;
+  top: 40%;
+  background-color: #180d90;
+}
+
+.circle {
+  display: flex;
+  height: 400px;
+  width: 400px;
+  position: relative;
+  background-color: rgb(152, 0, 0);
+  border-radius: 50%;
+}
+
+.sun {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  background-color: #ffef00;
+  position: relative;
+  top: -30px;
+  left: 166px;
+}
+
+.sky {
+  height: 356px;
+  width: 401px;
+  background-color: #7ddffc;
+  position: relative;
+  top: -52px;
+  left: 1px;
+}
+
+/* amarelo da areia: #f0de75
+azul do céu: #7ddffc
+piramide bright-side:#7ddffc 
+sol: #ffef00
+*/
